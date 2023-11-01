@@ -23,14 +23,22 @@
         <label for="inputEmail" class="form-label">Email address</label>
         <input type="email" class="form-control" id="inputEmail" aria-describedby="emailHelp">
       </div>
-      <div class="mb-3">
+      <div class="row">
+        <div class="col-6">
+        <div class="mb-3">
         <label for="inputPassword" class="form-label">Password</label>
         <input type="password" class="form-control" id="inputPassword">
       </div>
+        </div>
+        <div class="col-6">
+
       <div class="mb-3">
         <label for="inputConfirmPassword" class="form-label">Confirm Password</label>
         <input type="password" class="form-control" id="inputConfirmPassword">
       </div>
+        </div>
+      </div>
+      
       <button type="submit" class="btn btn-primary">Register</button>
     </form>
     <div class="container pt-4">
